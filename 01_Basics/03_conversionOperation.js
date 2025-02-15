@@ -36,3 +36,52 @@ let someNumber=33
 let stringNumber=String(someNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+
+/***************Operations********************************************* */
+////////////////////// Lecture 07 /////////////////////////////////////////
+
+let value = 3
+const negativeValue = -value
+console.log(negativeValue);
+
+console.log(2 + 2);
+console.log(2 - 2);
+console.log(2 * 2);
+console.log(2 / 2);
+console.log(2 ** 3);
+console.log(2 % 3);
+console.log(2 ^ 8);// tjis operation is plus the value
+
+
+let str1 = "hello"
+let str2 = "Satyendra"
+console.log(str1 + str2)
+console.log(str1 - str2)//NaN
+
+
+
+console.log("1" + 2); //12
+console.log(1 + "2"); //12
+console.log("4" + "3");  //43
+console.log("1" + 2 + 3);//112
+console.log(1 + 2 + "3"); //33
+
+console.log(3 + 4 * 5 % 3);  //not recommended
+console.log((3 + 4 )* 5 % 3);  //recommended
+
+console.log(+true); //1
+console.log(+"");//0
+
+let num1, num2, num3//not readable
+num1=num2=num3=2+3
+
+console.log(num1)  //5
+console.log(num2) //5
+console.log(num3) //5
+
+
+let gameCounter=100
+// ++gameCounter  //prefix
+gameCounter++  //postfix
+console.log(gameCounter);
